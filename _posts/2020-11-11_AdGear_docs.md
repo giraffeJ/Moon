@@ -81,8 +81,39 @@ Ad-Podding = 하나의 ad-request로 여러개의 광고를 입찰할 수 있게
 # boolean.md <a id="boolean.md"></a>
 
 ## business purpose
-+ U
----
++ filtering logic 적용을 위해 일반적인 DSL을 제공한다.
+
+### Product Filters
++ Product는 seller의 app/site의 loose bundle이다. (loost bundle=?)
++ marketplace나 deal에서 이 bundle이 하나의 단위가 된다.
++ SSP로부터 오는 request들에만 적용된다.
++ product를 bid_request에 매칭시키는 데 사용된다.
++ extension을 통해 product의 deal을 bid request에 매칭할 수 있다.
++ SSP bid request의 ACL로서 작용한다. (SSP 기준에 적합하지 않은 product를 걸러낼 수 있어서?)
+  - 어떤 buyer가 이 request를 볼 수 있는지를 정한다.
++ 제품 수준에서 지정할 수 있는 간단한 타게팅 룰 선택
++ sell side id에 의존적
+
+### Flight filters
++ flight의 타게팅 요건(=flight가 보고자 하는 inventory)을 표현
++ 모든 flight는 모든 bid_request에 대해 evaluate 된다.
++ 이 프로세스의 결과물(output)은 적합한 flight들과 creative들의 리스트이다.
++ targetting / inventory selection / creative selection을 포함한다.
+
+### Forecasting
++ Flight filters와 동일한 표현
++ 다음 캠페인을 위한 inventory의 availability를 예측
++ flight 구성을 평가하는 데에 중요한 역할
+[detail](#forecasting.md)
+
+### Universal Segments
++ [Adgear segments](segments.md)의 dynamic version
++ 
+
+```
+DSL = Domain Specific Language?
+ACL = Access Control List?
+------
 
 # viewing-the-data.md
 
