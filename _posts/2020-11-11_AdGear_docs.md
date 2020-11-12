@@ -5,7 +5,7 @@ Table of Contents
 * [boolean.md](#boolean.md)
 <!-- toc:end -->
 
-# acr-linear-ads.md
+# acr-linear-ads.md <a id="acr-linear-ads.md"></a>
 
 ## Context
 : Linear Ads within the ACR context is the name giving the ads shown on "linear" TV. In other words, ads shown on a ye olde TV channels as opposed to streaming services.
@@ -24,7 +24,7 @@ ACR = Automatic content recognition
 
 ------
 
-# auction.md
+# auction.md <a id="auction.md"></a>
 
 ## Business Purpose
 + impression 하나 당 bid 하나만을 exchange에 회신한다
@@ -78,7 +78,7 @@ Ad-Podding = 하나의 ad-request로 여러개의 광고를 입찰할 수 있게
 
 ------
 
-# boolean.md
+# boolean.md <a id="boolean.md"></a>
 
 ## business purpose
 + U
