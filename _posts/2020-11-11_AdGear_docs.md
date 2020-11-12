@@ -1,3 +1,8 @@
+<!-- toc:start -->
+Table of Contents
+[acr-linear-ads](#acr-linear-ads.md)
+<!-- toc:end -->
+
 # acr-linear-ads.md
 
 ## Context
@@ -73,7 +78,8 @@ Ad-Podding = 하나의 ad-request로 여러개의 광고를 입찰할 수 있게
 
 # boolean.md
 
-
+## business purpose
++ U
 ---
 
 # viewing-the-data.md
