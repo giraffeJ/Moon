@@ -1,6 +1,8 @@
 <!-- toc:start -->
 Table of Contents
-[acr-linear-ads](#acr-linear-ads.md)
+* [acr-linear-ads.md](#acr-linear-ads.md)
+* [auction.md](#auction.md)
+* [boolean.md](#boolean.md)
 <!-- toc:end -->
 
 # acr-linear-ads.md
