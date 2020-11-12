@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "AdGear Docs"
+date:   2020-11-11
+excerpt: "-"
+tag:
+comments: false
+---
+
 <!-- toc:start -->
 Table of Contents
 * [acr-linear-ads.md](#acr-linear-ads.md)
